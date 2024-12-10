@@ -2,7 +2,7 @@ import os
 import sys
 
 def install(text):
-    os.system(f'say "{text}"')
+    print(f"{text}")
     
 if __name__ == "__main__":
     if len(sys.argv) < 2:
