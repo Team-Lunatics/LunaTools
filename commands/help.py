@@ -5,7 +5,7 @@ def install(text):
     print(f"{text}")
     
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 3:
         print("Usage: python script.py <text>")
     else:
         text = sys.argv[2]
