@@ -1,6 +1,12 @@
-def help():
-    print("This is an example command!")
-    # Add more functionality here as needed
+import os
+import sys
 
+def install(text):
+    print(f"{text}")
+    
 if __name__ == "__main__":
-    help()
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <text>")
+    else:
+        text = sys.argv[1]
+        install(text)
