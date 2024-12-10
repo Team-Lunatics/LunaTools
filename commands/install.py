@@ -1,6 +1,4 @@
-def main():
-    print("This is an command!")
-    # Add more functionality here as needed
+import os
 
-if __name__ == "__main__":
-    main()
+def say(text):
+    os.system(f'say "{text}"')
