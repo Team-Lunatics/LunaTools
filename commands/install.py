@@ -1,7 +1,7 @@
 import os
 
-def say(text):
+def install(text):
     os.system(f'say "{text}"')
     
 if __name__ == "__main__":
-    say()
+    install()
