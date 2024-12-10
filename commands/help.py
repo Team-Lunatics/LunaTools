@@ -1,2 +1,6 @@
-def help_command():
-    print("Hello")
+def main():
+    print("This is an example command!")
+    # Add more functionality here as needed
+
+if __name__ == "__main__":
+    main()
