@@ -6,5 +6,5 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python say.py <message>")
     else:
-        message = " ".join(sys.argv[1:])
+        message = " ".join(sys.argv[2:])
         say(message)
