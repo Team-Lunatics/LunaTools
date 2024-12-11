@@ -2,6 +2,7 @@ Luna: [
     {
         "name": "LunaTools",
         "version": "0.0.4",
-        "recommended": true
+        "recommended": true,
+        "rollback": ["0.0.1","0.0.2","0.0.3","0.0.4"]
     }
 ]
